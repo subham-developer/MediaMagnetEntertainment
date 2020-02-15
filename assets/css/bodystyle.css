@@ -1,0 +1,268 @@
+/* css for body starts here */
+
+body {
+    background-color: white;
+}
+
+
+
+/* css for first section starts here */
+
+.firstsec {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.firstsec h6 {
+color:grey;
+font-size: 15px;
+text-align: left;
+}
+
+.firstsec h2 {
+    color: black;
+    font-size: 40px;
+    text-align: left;
+    font-style: bold;
+}
+.firstsec p {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+
+/* css for aboutus starts here */
+.aboutus {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.aboutus h2 {
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    /* padding-left: 500px; */
+    padding-right: 50px;
+}
+
+.aboutus p {
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+}
+.aboutus h5 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding: 10px;
+
+}
+.aboutus h5:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 25px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+/* css for service section starts here */
+
+.service {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.service h2 {
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 30px;
+}
+
+.service h5 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.service h5:hover {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    border-left: 2px solid rgb(236, 193, 113);
+    border-right: 2px solid rgb(236, 193, 113);
+    border-top: 2px solid rgb(236, 193, 113);
+    border-bottom: 2px solid rgb(236, 193, 113);
+    text-align: center;
+    padding: 10px;
+    color: rgb(136, 107, 54);
+    cursor: pointer;
+}
+
+/* css for extra four starts here */
+
+.extra {
+    padding-left: 0px;
+    height: 250px;
+}
+
+.extra h5 {
+    /* padding-right: 300px; */
+}
+
+.extra h5:hover {
+color:rgb(136, 107, 54);
+}
+
+.extra h2 {
+    font-size: 30px;
+    padding-right: 800px;
+}
+.career img{
+    height: 85px;
+}
+
+.extra img{
+    height: 60px;
+   
+}
+.extra img:hover {
+    background-color: rgb(236, 193, 113);
+   height: 60px;
+}
+.extra .extraicon {
+    margin-top: 65px;
+    padding-left: 60px;
+}
+.extra .extraicon img {
+    cursor: pointer;
+}
+
+/* css for career starts here */
+
+/* .career {
+    background-image: url('assets/images/pexels-photo-684385.jpeg');
+    height: 500px;
+    z-index: -5;
+    width: auto;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.career h2{
+font-size: 15px;
+    line-height: 20px;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(236, 193, 113);;
+}
+
+.career h2:hover{
+    cursor: pointer;
+    border-bottom: 4px solid rgb(236, 193, 113);
+    background-color: transparent;
+    color: rgb(136, 107, 54);
+    font-size: 15px;
+}
+ */
+/* .career h2{ 
+    background-image: url h2( "/assets/images/journey.png");
+    background-position-x: right;
+    width: auto;
+    height: 205px;
+} */
+
+.extra .career img {
+    z-index: -1;
+    position: absolute;
+    filter: grayscale(50%);
+    height: 250px;
+}
+.extra .career h5 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: 20px;
+}
+.extra .career h5 {
+    padding-top: 45px;
+    padding-left: 10px;
+    color: black;
+    word-spacing: 20px;
+}
+
+.insightBackground img {
+    z-index: -1;
+    position: absolute;
+    filter: grayscale(50%);
+}
+.insightBackground h2 {
+    color: black;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 10px;
+}
+.insightBackground h6 {
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* css for clients starts here */
+.clients {
+    /* height: 90px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.clients h2 {
+    color: black;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 30px;  
+}
+.clients img{
+    height: 200px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
