@@ -2,9 +2,28 @@
 
 body {
     background-color: white;
+    /* padding-left: 30px; */
+    font-family: 'Rubik', sans-serif;
+}
+p{
+    /* line-height: 14px; */
+    font-family: 'Lato', sans-serif;
+}
+/* css for logo starts here */
+.navbar-brand img{
+    margin-left: 70px;
 }
 
-
+/* css for header starts here */
+#navbarTogglerDemo01 ul li a{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+/* css for slider starts here */
+.carousel-inner img{
+    width: 100%;
+    height: 550px;
+}
 
 /* css for first section starts here */
 
@@ -12,51 +31,81 @@ body {
     padding-top: 30px;
     padding-left: 40px;
     padding-right: 40px;
+    /* background-color: rgb(250, 245, 245); */
+
 }
 
 
 .firstsec h6 {
-color:grey;
+color:rgb(118, 118, 143);
 font-size: 15px;
 text-align: left;
+
 }
 
 .firstsec h2 {
-    color: black;
+    color:rgb(199, 6, 6);
     font-size: 40px;
     text-align: left;
     font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 750px;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Rubik', sans-serif;
+}
+.firstsec h2:hover {
+    color:rgb(199, 6, 6);
+    font-size: 40px;
+    text-align: left;
+    font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 660px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 .firstsec p {
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
-
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
 }
 
 
 /* css for aboutus starts here */
 .aboutus {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-
+    padding-left: 60px;
+    /* padding-right: 50px; */
 }
 
 .aboutus h2 {
-    color: black;
+    color:rgb(199, 6, 6);
     font-size: 30px;
+    text-align: left;
     font-style: bold;
-    text-align: center;
-    /* padding-left: 500px; */
-    padding-right: 50px;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 1250px;
+    font-family: 'Rubik', sans-serif;
+}
+.aboutus h2:hover {
+    color:rgb(199, 6, 6);
+    font-size: 30px;
+    text-align: left;
+    font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 660px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 
 .aboutus p {
+    /* padding-top: 10px; */
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
+    font-family: 'Lato', sans-serif;
 }
 .aboutus h5 {
     padding-left: 50px;
@@ -69,6 +118,7 @@ text-align: left;
     border-bottom: 2px solid #000;
     text-align: center;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
 
 }
 .aboutus h5:hover {
@@ -76,45 +126,60 @@ text-align: left;
     padding-right: 50px;
     padding-top: 10px;
     font-size: 25px;
-    border-left: 2px solid red;
-    border-right: 2px solid red;
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
+    border-left: 2px solid rgb(32, 64, 138);
+    border-right: 2px solid rgb(32, 64, 138);
+    border-top: 2px solid rgb(32, 64, 138);
+    border-bottom: 2px solid rgb(32, 64, 138);
     text-align: center;
     padding: 10px;
-    color: red;
+    color: rgb(32, 64, 138);
+    font-family: 'Rubik', sans-serif;
 }
 
 /* css for service section starts here */
 
 .service {
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
+    background-color: rgb(250, 245, 245);
+
 }
 
 .service h2 {
-    color: black;
+    color:rgb(199, 6, 6);
     font-size: 30px;
+    text-align: left;
     font-style: bold;
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 30px;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 800px;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.service h2:hover{
+    padding-top: 20px;
+    color:rgb(199, 6, 6);
+    font-size: 30px;
+    text-align: left;
+    font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 660px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 
 .service h5 {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 10px;
     font-size: 15px;
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     text-align: center;
     padding: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .service h5:hover {
@@ -122,21 +187,28 @@ text-align: left;
     padding-right: 50px;
     padding-top: 10px;
     font-size: 15px;
-    border-left: 2px solid rgb(236, 193, 113);
-    border-right: 2px solid rgb(236, 193, 113);
-    border-top: 2px solid rgb(236, 193, 113);
-    border-bottom: 2px solid rgb(236, 193, 113);
+    border-left: 2px solid rgb(32, 64, 138);
+    border-right: 2px solid rgb(32, 64, 138);
+    border-top: 2px solid rgb(32, 64, 138);
+    border-bottom: 2px solid rgb(32, 64, 138);
     text-align: center;
     padding: 10px;
-    color: rgb(136, 107, 54);
+    color: rgb(32, 64, 138);
     cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 
+.serviceRow {
+    margin-top: 30px;
+}
 /* css for extra four starts here */
 
 .extra {
     padding-left: 0px;
     height: 250px;
+    margin-bottom: 30px;
+    /* background-color: rgb(250, 245, 245); */
+
 }
 
 .extra h5 {
@@ -144,7 +216,7 @@ text-align: left;
 }
 
 .extra h5:hover {
-color:rgb(136, 107, 54);
+color:rgb(32, 64, 138);
 }
 
 .extra h2 {
@@ -160,7 +232,7 @@ color:rgb(136, 107, 54);
    
 }
 .extra img:hover {
-    background-color: rgb(236, 193, 113);
+    background-color: rgb(32, 64, 138);
    height: 60px;
 }
 .extra .extraicon {
@@ -173,39 +245,6 @@ color:rgb(136, 107, 54);
 
 /* css for career starts here */
 
-/* .career {
-    background-image: url('assets/images/pexels-photo-684385.jpeg');
-    height: 500px;
-    z-index: -5;
-    width: auto;
-    background-position: center;
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.career h2{
-font-size: 15px;
-    line-height: 20px;
-    color: white;
-    background-color: transparent;
-    border-bottom: 2px solid rgb(236, 193, 113);;
-}
-
-.career h2:hover{
-    cursor: pointer;
-    border-bottom: 4px solid rgb(236, 193, 113);
-    background-color: transparent;
-    color: rgb(136, 107, 54);
-    font-size: 15px;
-}
- */
-/* .career h2{ 
-    background-image: url h2( "/assets/images/journey.png");
-    background-position-x: right;
-    width: auto;
-    height: 205px;
-} */
 
 .extra .career img {
     z-index: -1;
@@ -217,52 +256,305 @@ font-size: 15px;
     margin-top: 10px;
     font-size: 30px;
     line-height: 20px;
+    font-family: 'Rubik', sans-serif;
 }
 .extra .career h5 {
     padding-top: 45px;
     padding-left: 10px;
-    color: black;
+    color: rgb(199, 6, 6);
     word-spacing: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.extra .career h6 {
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.insightBackgroundImg {
+    background-image: url('file:///C:/xampp/htdocs/Bhavna/Media_Magnet_Entertainment/assets/images/laptop-image.jpeg');
+    position: absolute;
+    filter: grayscale(50%);
+    /* padding-right: 25px; */
+    width: 422px;
+    height: 285px;
+    /* margin-right: 0px; */
 }
 
-.insightBackground img {
+/* .insightBackground img {
     z-index: -1;
     position: absolute;
     filter: grayscale(50%);
-}
+    padding-right: 25px;
+    margin-right: 0px;
+} */
 .insightBackground h2 {
-    color: black;
+    color: rgb(199, 6, 6);
+    margin-right: 500px;
     margin-top: 40px;
     text-align: left;
     padding-left: 10px;
+    filter: grayscale(0%);
+    font-family: 'Rubik', sans-serif;
 }
 .insightBackground h6 {
     color: black;
     text-align: left;
     padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* css for clients starts here */
 .clients {
-    /* height: 90px; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 110px;
-    padding-right: 110px;
+    /* color:rgb(199, 6, 6);
+    font-size: 40px;
+    text-align: left;
+    font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 750px; */
 }
 .clients h2 {
-    color: black;
+    color:rgb(199, 6, 6);
     font-size: 30px;
+    text-align: left;
     font-style: bold;
-    text-align: center;
-    padding-left: 500px;
-    padding-right: 500px;
-    padding-bottom: 30px;  
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 770px;
+    margin-left: 35px;
+    margin-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.clients h2:hover{
+    color:rgb(199, 6, 6);
+    font-size: 30px;
+    text-align: left;
+    font-style: bold;
+    border-bottom: 4px solid rgb(118, 118, 143);
+    margin-right: 700px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
 }
 .clients img{
     height: 200px;
     width: 100%;
     padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    /* border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; */
+    padding: 20px;
+
+}
+.clients img:hover{
+    height: 200px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border-left: 2px solid black;
+    border-bottom: 2px solid black;
+     padding: 20px; */
+}
+
+/* css for footer starts here */
+.footer1{
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    background-color: rgb(250, 245, 245);
+}
+.footer1 h5{
+    color:  rgb(32, 64, 138);
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.footer1 ul {
+    padding-top: 30px;
+    
+}
+.footer1 ul li{
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+}
+.footer1 ul li a{
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 5px;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 4px; */
+    /* border-bottom: 4px solid white; */
+}
+
+.footer1 ul li a:hover {
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: rgb(32, 64, 138);
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.footer2{
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    background-color: rgb(250, 245, 245);
+    margin-bottom: 10px;
+}
+.footer2 h5{
+    color:  rgb(32, 64, 138);
+    font-size: 20px;
+    font-style: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+.footer2 ul {
+    padding-top: 30px;
+}
+.footer2 ul li a{
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 4px; */
+    /* border-bottom: 4px solid white; */
+}
+.footer2 ul li{
+    list-style: none;
+}
+.footer2 ul li a:hover {
+    letter-spacing: 0.5px;
+    color: rgb(32, 64, 138);
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.footer2 p{
+    margin-top: 30px;
+}
+
+.footer2 p{
+    color: white;
+    text-align: left;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
     padding-right: 20px;
+    background-color: rgb(32, 64, 138);
+    font-family: 'Lato', sans-serif;
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+}
+.footer2 .secondFooter{
+    padding-left: 25px;
+} 
+.footer2 .copyRight{
+    margin-left: 95px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 1px;
+}
+.footerHr{
+    padding: 0px;
+    margin: 0px;
+}
+.clientsHr{
+    padding: 0px;
+    margin: 0px;
+}
+.socialIcons {
+    background-color: #9b9b9b;
+}
+.socialMediaIcons ul{
+    list-style: none;
+    text-align: left;
+}
+.socialMediaIcons ul li{
+    display: inline-block;
+}
+.socialMediaIcons ul li a{
+    letter-spacing: 20px;
+    border-radius: 5px solid #999;
+    background: none repeat scroll 0 0 #2b2b2b;
+    border-radius: 50%;
+    color: #9b9b9b;
+    display: inline-block;
+    font-size: 15px;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 13px;
+    position: relative;
+    width: 37px;
+}
+.socialMediaIcons ul li a:hover{
+    
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(60deg);
+}
+.socialMediaIcons ul{
+    margin-top: 10px;
+}
+.socialMediaIcons ul li{
+    margin-left: 10px;
+}
+/* .footerNav ul li a{
+    list-style: none;
+    text-align: right;
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    font-family: 'Rubik', sans-serif;
+} */
+.footerNav ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.footerNav ul li {
+    display: inline-block;
+}
+.footerNav ul li a{
+    margin: 8px;
+    text-decoration: none;
+    /* color: #9b9b9b; */
+    color: #2b2b2b;
+
 }
 
