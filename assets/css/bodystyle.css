@@ -124,7 +124,7 @@ p {
 
 .carousel-inner img {
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -160,7 +160,7 @@ p {
     text-align: left;
     font-style: bold;
     border-bottom: 4px solid rgb(118, 118, 143);
-    margin-right: 660px;
+    margin-right: 690px;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
 }
@@ -199,7 +199,7 @@ p {
     text-align: left;
     font-style: bold;
     border-bottom: 4px solid rgb(118, 118, 143);
-    margin-right: 660px;
+    margin-right: 1200px;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
 }
@@ -246,7 +246,7 @@ p {
 
 .service {
     padding-top: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     background-color: rgb(250, 245, 245);
@@ -270,7 +270,7 @@ p {
     text-align: left;
     font-style: bold;
     border-bottom: 4px solid rgb(118, 118, 143);
-    margin-right: 660px;
+    margin-right: 750px;
     cursor: pointer;
     font-family: 'Rubik', sans-serif;
 }
@@ -461,11 +461,11 @@ p {
 }
 
 .clients img {
-    height: 200px;
-    width: 100%;
+    height: 120px;
+    width: 80%;
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     /* border-left: 2px solid black;
     border-right: 2px solid black;
     border-top: 2px solid black;
@@ -474,8 +474,8 @@ p {
 }
 
 .clients img:hover {
-    height: 200px;
-    width: 100%;
+    height: 120px;
+    width: 80%;
     padding-left: 30px;
     padding-right: 30px;
     /* border-left: 2px solid black;
