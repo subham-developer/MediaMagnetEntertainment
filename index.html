@@ -34,7 +34,51 @@
         width: 100%;
         height: 100%;
     } */
+        .hideTopHeader{
+            display: none;
+        }
+        .neMenuBar{
+            background-color: rgba(34,34,34,0.8);
+            
+            /* background-color: rgba(238, 102, 102, 0.8); */
+            /* background-color:white; */
+            height: 100px;
+        }
+        .neMenuBar .collapse .navbar-nav .nav-item a{
+            color: white;
+            font-size: 18px;
+        }
+        .neMenuBar img {
+                margin-left: 20px;
+                margin-top: -10px;
+                height: 90px;
+                width: 150px;
+                border-radius: 15px;
+            }
     </style>
+    <script>
+        $(function() {
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 50) {
+                    $(".wlecomeHeader").addClass("hideTopHeader");
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                $(".wlecomeHeader").removeClass("hideTopHeader");
+                }
+            });
+        });
+
+        $(function() {
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 50) {
+                    $(".MenuBar").addClass("neMenuBar");
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                $(".MenuBar").removeClass("neMenuBar");
+                }
+            });
+        });
+    </script>
 
 </head>
 
@@ -57,48 +101,48 @@
         </div>
     </div>
     <!-- code for navbar starts here -->
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" alt="logo" width="30%" height="30%"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <!-- <a class="navbar-brand" href="/underConstruction.html">Media Magnet</a> -->
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Home <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">About<span class="sr-only"></span></a>
-                </li>
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Services <span class="sr-only"></span></a>
-                </li> -->
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Industry <span class="sr-only"></span></a>
-                </li> -->
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Technology <span class="sr-only"></span></a>
-                </li> -->
-                <!-- <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Solution <span class="sr-only"></span></a>
-                </li> -->
-                <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Career <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/underConstruction.html">Contact<span class="sr-only"></span></a>
-                </li>
-
-
-            </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
-        </div>
-    </nav>
+    <div class="MenuBar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" alt="logo" width="30%" height="30%"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <!-- <a class="navbar-brand" href="/underConstruction.html">Media Magnet</a> -->
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Home <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About<span class="sr-only"></span></a>
+                        </li>
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Services <span class="sr-only"></span></a>
+                        </li> -->
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Industry <span class="sr-only"></span></a>
+                        </li> -->
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Technology <span class="sr-only"></span></a>
+                        </li> -->
+                        <!-- <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Solution <span class="sr-only"></span></a>
+                        </li> -->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Career <span class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/underConstruction.html">Contact<span class="sr-only"></span></a>
+                        </li>
+                    </ul>
+                    <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+                </div>
+            </nav>
+    </div>
+    
 
 
 
@@ -118,9 +162,9 @@
             <div class="carousel-item active">
                 <img src="assets/images/0493459001473835582.jfif" alt="Los Angeles" width="1100px">
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <img src="assets/images/future-in-events-.jpg" alt="Chicago" width="1100px">
-            </div>
+            </div> -->
             <div class="carousel-item">
                 <img src="assets/images/3rd.jpeg" alt="New York" width="1100px">
             </div>
@@ -464,10 +508,10 @@
                     <option value="Press Conference">Press Conference</option>
                 </select>
             </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <div class="form-group">
-                <!-- <label for="pwd">Query</label> -->
+            <!-- <div class="form-group">
+                <label for="pwd">Query</label>
                 <input type="text" class="form-control" id="query" placeholder="Enter Your Query" name="query">
-            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>&nbsp;&nbsp;&nbsp;&nbsp; -->
             <!-- <button type="submit" class="btn btn-default">Submit</button> -->
         </form>
         <button type="submit" class="btn btn-default submitButton">Submit</button>
@@ -580,6 +624,26 @@
         new WOW().init();
     </script>
 
+
+    <script>
+        /* ========================================== 
+            scrollTop() >= 300
+            Should be equal the the height of the header
+            ========================================== */
+
+            $(window).scroll(function(){
+                if ($(window).scrollTop() >= 300) {
+                    $('MenuBar').addClass('fixed-header');
+                    $('MenuBar nav').addClass('visible-title');
+                    console.log('Hi');
+                }
+                else {
+                    $('MenuBar').removeClass('fixed-header');
+                    $('MenuBar nav').removeClass('visible-title');
+                }
+            });
+
+    </script>
     <!-- cdn for javascript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
